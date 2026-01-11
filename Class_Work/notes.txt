@@ -1,0 +1,8 @@
+=IF(logical_test,value_if_true,value_if_false)
+=IFS(logical_test1,value_if_true1,logical_test2,value_if_true2,....)
+=SUMIF(criteria_range,criteria,sum_range)
+=SUMIFS(sum_range,criteria_range1,criteria1,criteria_range2,criteria2,....)
+=COUNTIF(critria_range,criteria)
+=COUNTIFS(critria_range1,criteria1,critria_range2,criteria2......)
+=VLOOKUP(lookup_value,table_array,col_index_num,range_lookup)
+
