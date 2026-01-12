@@ -5,4 +5,7 @@
 =COUNTIF(critria_range,criteria)
 =COUNTIFS(critria_range1,criteria1,critria_range2,criteria2......)
 =VLOOKUP(lookup_value,table_array,col_index_num,range_lookup)
+=ISNA(value) //Returns True if finds N/A otherwise False   //We can use this with vlookup also
+=IFNA(value,value_if_na)    //We can use this with vlookup also
+=IFERROR(value,value_if_error)    //We can use this with vlookup also
 
