@@ -11,6 +11,7 @@
 =INDEX(array,row_num,[col_num])
 =MATCH(lookup_value,lookup_array,[match_type])
 =INDEX(result_array,MATCH(lookup_value,lookup_array,0))
+=INDEX(result_array,MATCH(lookup_value,lookup_array,0),MATCH(lookup_value,lookup_array,0))
 =HLOOKUP(lookup_value,table_array,row_index_num,range_lookup)
 =ROUND(number,num_digits)
 =CELLING(number,significance)
